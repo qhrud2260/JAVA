@@ -1,0 +1,33 @@
+package sub1;
+
+import java.sql.DriverManager;
+import java.sql.Connection;
+//import java.sql.SQLException;?
+
+/*
+ * 날짜 : 2020/05/26
+ * 이름 : 김보경
+ * 내용 : JDBC프로그래밍
+ */
+public class JDBCTest {
+	public static void main(String[] args) throws Exception {
+		//DB정보
+		String host = "jdbc:mysql://192.168.44.7/kbk";
+		String user = "kbk";
+		String pass = "1234";
+		
+		//1단계 - JDBC 드라이버 동적로드
+		Class.forName("com.mysql.jdbc.Driver");
+		//2단계 - 데이터 베이스 접속
+		Connection conn = DriverManager.getConnection(host, user, pass);
+		
+		if(conn != null) {
+			System.out.println("데이터베이스 접속 성공!");
+		}
+		//3단계
+		//4단계
+		//5단계
+		//6단계 - 데이터베이스 종료
+		conn.close();
+	}
+}

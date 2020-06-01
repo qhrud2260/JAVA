@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="400.0" minWidth="270.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.JavaCalcController">
+   <children>
+      <Label layoutX="21.0" layoutY="23.0" text="자바 계산기">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDisp" alignment="CENTER_RIGHT" layoutX="20.0" layoutY="49.0" minHeight="50.0" minWidth="230.0" />
+      <Button fx:id="btn7" layoutX="21.0" layoutY="119.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="7" />
+      <Button fx:id="btn8" layoutX="82.0" layoutY="119.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="8" />
+      <Button fx:id="btn9" layoutX="144.0" layoutY="119.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="9" />
+      <Button fx:id="btn4" layoutX="21.0" layoutY="181.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="4" />
+      <Button fx:id="btn5" layoutX="82.0" layoutY="181.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="5" />
+      <Button fx:id="btn6" layoutX="144.0" layoutY="181.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="6" />
+      <Button fx:id="btnDiv" layoutX="201.0" layoutY="119.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="/" />
+      <Button fx:id="btnMulti" layoutX="201.0" layoutY="181.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="*" />
+      <Button fx:id="btn1" layoutX="21.0" layoutY="243.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="1" />
+      <Button fx:id="btn2" layoutX="82.0" layoutY="243.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="2" />
+      <Button fx:id="btn3" layoutX="144.0" layoutY="243.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="3" />
+      <Button fx:id="btn0" layoutX="21.0" layoutY="305.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="0" />
+      <Button fx:id="btnClear" layoutX="82.0" layoutY="305.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="c" />
+      <Button fx:id="btnEq" layoutX="144.0" layoutY="305.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="=" />
+      <Button fx:id="btnMinus" layoutX="201.0" layoutY="243.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="-" />
+      <Button fx:id="btnPlus" layoutX="201.0" layoutY="305.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" text="+" />
+   </children>
+</AnchorPane>
